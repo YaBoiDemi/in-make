@@ -1,8 +1,14 @@
 html {
     height: 100%;
     width: 100%;
+    background-color: black;
 }
-  
+
+div {
+    color: white;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,7 +20,7 @@ body {
     max-width: 400px;
     margin: 17px auto;
     padding: 10px;
-    border: solid 2px rgb(31, 88, 157);
+    border: solid 2px rgb(23, 110, 216);
     border-radius: 320px;
     border-width: 5px;
 }
@@ -24,28 +30,40 @@ body {
 }
   
 h1 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
   
 p {
-    color: black;
+    color: rgb(255, 255, 255);
 }
   
 .content{
     position: relative;
-    max-width: 400px;
-    margin: 17px auto;
+    width: 400px;
+    margin: 17px;
     padding: 10px;
-    border: solid 2px rgb(31, 88, 157);
-    border-radius: 320px;
+    border: solid 2px rgb(23, 110, 216);
+    border-radius: 32px;
     border-width: 5px;
 }
   
 .insidecontent {
     text-align: center;
     font-size: large;
-    font-family: serif;
+    font-family: -apple-system;
 }
+/*A diffirent border for {boxinsidecontent}*/
+
+.boxinsidecontent {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px rgb(23, 110, 216);
+    border-radius: 12px;
+    border-width: 5px;
+}
+
 
 .iamme {
     font-weight: bold;
@@ -58,6 +76,5 @@ p {
 }
   
 p {
-    color: black;
-    
+    color: rgb(255, 255, 255);  
 }
