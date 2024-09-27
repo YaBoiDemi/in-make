@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
 html {
     height: 100%;
     width: 100%;
@@ -15,14 +19,16 @@ body {
     padding: 30px
 }
   
-.container {
-    position: relative;
-    max-width: 400px;
-    margin: 17px auto;
+.container, .content, .boxinsidecontent {
+    position: static;
+    width: 200px;
+    margin: 10px;
     padding: 10px;
     border: solid 2px rgb(23, 110, 216);
-    border-radius: 320px;
+    border-radius: 12px;
     border-width: 5px;
+    position: relative;
+    left: 75vh;
 }
   
 .header {
@@ -37,32 +43,29 @@ p {
     color: rgb(255, 255, 255);
 }
   
-.content{
-    position: relative;
-    width: 400px;
-    margin: 17px;
-    padding: 10px;
-    border: solid 2px rgb(23, 110, 216);
-    border-radius: 32px;
-    border-width: 5px;
-}
+
   
 .insidecontent {
     text-align: center;
     font-size: large;
-    font-family: -apple-system;
+    font-family: 'Roboto',-apple-system, montserrat;
 }
 /*A diffirent border for {boxinsidecontent}*/
 
-.boxinsidecontent {
-    position: relative;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: solid 2px rgb(23, 110, 216);
-    border-radius: 12px;
-    border-width: 5px;
+.insidecontent1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 9px auto;
+    border: 2px solid rgb(22, 30, 188);
+    border-radius: 8px;
+    width: 2px auto;
+    height: 2px auto;
 }
+
 
 
 .iamme {
