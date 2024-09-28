@@ -22,13 +22,15 @@ body {
 .container, .content, .boxinsidecontent {
     position: static;
     width: 200px;
-    margin: 10px;
+    height: auto;
+    margin: 20px auto;
     padding: 10px;
     border: solid 2px rgb(23, 110, 216);
     border-radius: 12px;
     border-width: 5px;
-    position: relative;
-    left: 75vh;
+    display: block;
+    text-align: center;
+    justify-content: center;
 }
   
 .header {
